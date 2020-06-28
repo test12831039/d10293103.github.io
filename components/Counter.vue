@@ -16,10 +16,10 @@ export default Vue.extend({
     },
     methods: {
         inc(){
-            this.$store.commit('increment');
+            this.$store.commit('INCREMENT');
         },
         dec(){
-            this.$store.commit('decrement');
+            this.$store.commit('DECREMENT');
         }
     }
 })

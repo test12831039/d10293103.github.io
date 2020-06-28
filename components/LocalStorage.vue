@@ -1,9 +1,14 @@
 <template>
     <div>
-        <v-text-field v-model="key" label="Key" />
-        <v-text-field v-model="value" label="Value" />
-        <v-btn @click="load()">load</v-btn>
-        <v-btn @click="save()">save</v-btn>
+        <div class="d-flex">
+            <v-text-field v-model="key" label="Key" />
+            <div class="ma-2"></div>
+            <v-text-field v-model="value" label="Value" />
+            <div class="ma-2"></div>
+            <v-btn @click="load()">load</v-btn>
+            <div class="ma-2"></div>
+            <v-btn @click="save()">save</v-btn>
+        </div>
     </div>
 </template>
 
