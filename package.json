@@ -23,4 +23,5 @@
     "@nuxt/typescript-build": "^1.0.3",
     "@nuxtjs/vuetify": "^1.11.2"
   }
+  
 }
