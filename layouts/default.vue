@@ -111,6 +111,11 @@ export default {
           title: 'Raphael Marques',
           to: '/raphael'
         },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Todos',
+          to: '/todos'
+        },
       ],
       miniVariant: false,
       right: true,

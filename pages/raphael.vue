@@ -12,11 +12,9 @@
           <small>
             <em>&mdash;Raphael Marques</em>
           </small>
-          <div>
-            <v-btn @click="inc(-1)">-</v-btn>
-            {{count}}
-            <v-btn @click="inc(1)">+</v-btn>
-          </div>
+          <Counter />
+          <Counter />
+          <LocalStorage />
         </footer>
       </blockquote>
     </v-flex>
